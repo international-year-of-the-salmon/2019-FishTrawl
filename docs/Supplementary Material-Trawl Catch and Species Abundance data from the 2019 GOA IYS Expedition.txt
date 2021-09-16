@@ -1,0 +1,44 @@
+Protocols for Trawl Catch and Abundance  Data from the 2019 Gulf of Alaska International Year of the Salmon Expedition
+
+Trawl
+
+This is a general category for sampling Pacific salmon, based on what was done in 2019 & 2020. It is what would be typical on Russian cruises. Some of the items in this protocol will be identified in more detail in other protocols. Also, much of the material in this protocol will be captured in the final “station sampling plan” that will be finalized by mid-January.
+Trawl content will be separated into micronekton and nekton. Micronekton will be analyzed for taxonomy, density, and biochemistry. 
+All fish will be counted, and species identified.
+Each salmon species will be processed as follows:
+•	from a minimum of 50 specimens (or all if lesser amount caught): fork length, wet weight, sex, and stomach fullness will be recorded, otoliths and scales will be collected. 
+•	from a minimum of 25 specimens (or all if lesser amount caught) genetic samples will be collected in duplicates for stock identification and preserved with 99% ethanol or processed for real-time genetic stock identification (GSI).
+•	From a minimum of 15 specimens (as a subset of the 50 above; or all if lesser amount caught): blood collection, aseptic organ samples (gills, brain, heart, kidney, liver, spleen, muscle; in RNA later), histology samples (all above + pyloric caeca; in formalin);  
+•	stomach contents from fish (min 25 specimens or all if lesser amount caught. Additional stomachs can be preserved in ethanol or frozen for genetic analyses) of the same size (usually in 10 cm intervals) from each trawl catch are collected and placed together. All prey items will be identified to the lowest possible taxonomic level; total prey weight and weight of each prey component are measured. Mean values for the species and its size groups are calculated for the individual sample and for the survey region.
+•	if more than 50 fish caught, the remaining fish will be measured, weighed and frozen individually at -20oC.
+
+There will be specific requests as outlined in the following protocols. Each protocol identifies the additional requests and how the samples will be used. The allocation of samples at a station will be decided once the catch is known, but the preliminary “Station Sampling Plan” identifies the measurements that might be made. 
+
+Equipment
+•	99% ethanol
+•	RNAlater
+•	-20°C freezer
+•	Ruler
+•	Scale
+
+
+--------------------
+Abundance
+
+Abundance estimates of specific populations will be made after the DNA analysis determines the stock composition. 
+
+A complete analysis of midwater trawl catches will be carried out immediately following trawl retrieval.  The whole catch for nekton and rare macroplankton/micronekton species (e.g., fish and fish-like organisms, cephalopods, and jellyfish) will be collected for sampling.  The remaining macroplankton/micronekton will be weighed and ½ to 1/8 of the sample by weight will be analyzed to the species (or lowest possible taxon) level.  The remaining sample will be frozen and/or preserved in formalin solution for subsequent lab analyses.  Individuals (by species) in both whole sample and subsample will be counted and weighed.  Unidentified species will be sampled and preserved in formalin solution for further clarification of their systematic position. 
+All information will be immediately recorded into the database.  Calculation of the catch weight and size composition for 1 hour of trawling will be carried out using MS ACCESS software. Standard areal method will be used for calculations of abundance and biomass of nekton and macroplankton/micronekton.
+The calculations are carried out according to the formula: N (B) = Q * S / 1,000,000,
+where N, B is the number and biomass of species (thousand tons and million fish); Q is the average distribution density of species within the survey area (ind. or kg per km2); S is the survey area (km2).
+The average distribution density within the survey area will be found as the arithmetic average of the distribution densities of species at each individual trawl station (q). 
+The latter value will be determined using the trawl swept area (s), i.e. the horizontal area covered by the trawl during the haul, and will be calculated using the actual horizontal opening of the trawl (l, the distance between the wings of the trawl gear), the average speed of the vessel (v), and trawl haul duration (t): s = l * v* t
+The distribution density index q is calculated using number and weight of each individual species (n or b), the trawl swept area (s), and the coefficient of catchability of the species (k) according to the formula: q = n (b) / k * s.  The coefficients of catchability for major nekton species are presented in series of Atlases issued by the TINRO-Center (Shuntov & Bocharov 2003).  
+All pros and cons of applied method are analyzed by I. Volvenko (1999, 2000).  
+
+All subsequent data processing will be carried out using MS ACCESS package (primary processing and data storage), MS Excel (supporting calculations), ArcView GIS (area calculation), Surfer (mapping, charts).  
+Equipment:
+ 
+	Formalin solution
+	Computer 
+	Scale 
