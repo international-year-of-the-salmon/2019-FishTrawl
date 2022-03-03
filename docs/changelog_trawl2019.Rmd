@@ -1,0 +1,39 @@
+---
+title: "changelog_trawl2019"
+author: "Tim van der Stap"
+date: "4/8/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# CHANGELOG
+
+All notable changes to this project will be documented in this file. This document outlines all the changes made to the original Processed Data files (`JuvSalmon_2019-01.v20.12_FINAL_SUBMITTED.xlsx` and `JuvSalmon_2019-01_Specimens_v21.01b_SUBMITTED_COPY.xlsx`), to facilitate standardization of data. The original Processed Data files are still in Google Drive, [here](https://drive.google.com/drive/u/0/folders/13_TkVkpmkso5fm2GTWoHMsspIK068qg9). The working files - those that are being standardized to fit DwC standards - are saved locally under `2019_GoA_Fish_Trawl_catchdata` and `2019_GoA_Fish_Specimen_data.xlsx`. The standardization script also includes changes made to the Processed Data to facilitate publication of the Standardized Data to the Ocean Biodiversity Information System (OBIS), however those changes were _not_ made to the original Processed Data file and can be determined from the .Rmd file.  
+
+### Changes to 2019_GoA_Fish_Trawl_catchdata 
+
+*  (мол.) is removed from the `species` column. 
+* The column `SEA_STATE_ID` reflects the wave height, according to the metadata sheet. In this column, зыбь is replaced with its English translation 'swell'.
+* In row 414, Siphonophora is listed under 'species', and 'sp.' under 'common name'. I have changed this to include Siphonophora under 'genus' and 'sp.' under 'species'.
+
+### Added
+
+* Two columns were added: `eventDate_trawl_start` and `eventDate_trawl_finish`. The reason for this is that originally only one column (`EVENT_DATE`) was used to provide the date of trawl. However, some trawls were done at night and carried over into the following day. To improve data user understanding and facilitate standardization to ISO-8601 format, `eventDate_trawl_start` and `eventDate_trawl_finish` were included. 
+
+### Data Limitations
+
+The `CATCH_FINAL` sheet includes columns for adult and juveniles. However, this information is not included in the occurrence extension within the Standardized Data because it appears the only distinction made is whether the catch data includes adults or juveniles (y), and it is not specific to taxonomic occurrence. 
+
+Changes made in the 2019_GoA_Fish_Specimen_data file:
+
+* неполов. is removed from the `species` column.
+* сегол. is removed from the `species` column.
+* полов. is removed from the `species` column.
+
+### Data Concerns
+
+* For Tow Number 51, two separate records are listed for Chrysaora melonaster. I've raised this concern with the Data Provider, who mentions that this is an issue with integration of different data, with one record probably referring to the expanded numbers. The Data Provider mentions that "I expect the second row (that has a catch of 1) was one of the pa". As we are not certain, I have kept both these records in the data file. 
+* Currently, length measurements could relate to different length measurements (fork length, standard length, mantle length etc.). This concern has not been adequately resolved, and might require an update to the eMOF in the future. 
